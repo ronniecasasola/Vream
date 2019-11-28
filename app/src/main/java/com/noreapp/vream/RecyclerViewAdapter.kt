@@ -26,8 +26,8 @@ class RecyclerViewAdapter: RecyclerView.Adapter<CustomViewHolder>() {
     override fun onBindViewHolder(holder: CustomViewHolder, position: Int) {
         val dreamTitle = dreamTitles[position]
         val dreamBody = dreamBodies[position]
-        holder?.view.dream_title.text = dreamTitle
-        holder?.view.dream_body.text = dreamBody
+        holder.view.dream_title.text = dreamTitle
+        holder.view.dream_body.text = dreamBody
     }
 }
 
